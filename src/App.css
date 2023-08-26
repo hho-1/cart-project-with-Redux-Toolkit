@@ -1,0 +1,25 @@
+.navDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+    align-items: center;
+    color: white;
+    height: 70px;
+}
+.navDiv h3{
+    font-size: 1.5rem;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.rightNav{
+    position: relative;
+}
+.rightNav p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+}
+.items-icon{
+    position: absolute;
+    font-size: 1.4rem;
+    right: 7px;
+    top: 9px;
+}
