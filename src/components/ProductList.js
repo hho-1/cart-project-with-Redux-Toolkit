@@ -34,7 +34,7 @@ const ProductList = () => {
           <footer>
             <hr />
             <div className='footerDiv'>
-              <h4>Total Price: <span>${total}</span></h4>
+              <h4>Total Price: <span>${total.toFixed(2)}</span></h4>
             </div>
             <button className='clearButton' onClick={()=>dispatch(clearCart())}>Clear</button>
           </footer>

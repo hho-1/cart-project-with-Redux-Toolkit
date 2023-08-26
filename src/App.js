@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     dispatch(calculateTotal())
-  }, [cartItems])
+  }, [cartItems, dispatch])
   
 
   return (
