@@ -7,4 +7,4 @@ In this project, a shopping website is designed so as to study Redux Toolkit. Fo
 - MaterialUI
 - Redux Toolkit
 - Bootstrap
-- Typescript
+
