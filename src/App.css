@@ -1,3 +1,11 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+
+
+
 .navDiv{
     display: flex;
     justify-content: space-around;
@@ -8,13 +16,13 @@
 }
 .navDiv h3{
     font-size: 1.5rem;
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 .rightNav{
     position: relative;
 }
 .rightNav p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     color: yellow;
 }
 .items-icon{
@@ -22,4 +30,81 @@
     font-size: 1.4rem;
     right: 7px;
     top: 9px;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-evenly;
+    gap: 20px 20px;
+}
+.productCard{
+    box-shadow: 10px 10px 5px #888888;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h2{
+    text-align: center;
+    color: red;
+    margin: 20px auto;
+}
+.card-footer-left{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.card-footer-right{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: red;
+    display: flex;
+    
+    color: white;
+    height: 3rem;
+    z-index: 2;
+}
+.card-footer-right p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    color: red;
+}
+.card-footer-right Button{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footerDiv{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.footerDiv h4{
+    font-size: 2.5rem;
+}
+.clearButton{
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    background-color: bisque;
+    text-transform: uppercase;
+    color: red;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 700px;
+    right: 700px;
+    text-align: center;
+    
+}
+section{
+    margin-bottom: 100px;
 }
