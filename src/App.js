@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import ProductList from './components/ProductList';
+import ProductList from './components/productList'
 import { useDispatch, useSelector } from 'react-redux';
 import { calculateTotal } from './control/cartSlice';
 
