@@ -8,3 +8,5 @@ In this project, a shopping website is designed so as to study Redux Toolkit. Fo
 - Redux Toolkit
 - Bootstrap
 
+### Result
+https://main--creative-selkie-cc3b7e.netlify.app
